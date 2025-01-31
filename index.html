@@ -33,25 +33,68 @@
             }
         }
     </script>
+    <!-- font-awesome  -->
+    <script src="https://kit.fontawesome.com/e7f69b870e.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="sora-font">
     <!-- header section  -->
-     <header>
+    <header class="md:container mx-auto ">
         <!-- nav bar  -->
-        <nav>
+        <nav class="navbar border-b border-[#179800] lg:border-hidden">
+            <div class="navbar flex justify-between">
+                <div class="navbar-start">
+                    <!-- <a class="btn btn-ghost text-xl">daisyUI</a> -->
+                    <a href="index.html">
+                        <img class="w-20 md:w-32 " src="images/logo-header.png" alt="">
+                    </a>
+                </div> 
+                <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+
+                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100  rounded-box z-[1] mr-15 w-52 p-2 shadow ">
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#"><i class="fa-solid fa-magnifying-glass text-2xl mr-5"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping text-2xl mr-5"></i></a></li>
+                        <li><a href="#" class="btn btn-outline border-[#179800] m-0">Login</a></li>
+                        <li><a href="#" class="btn text-white bg-naturePrimary">Register</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end hidden lg:flex space-x-2">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass text-2xl mr-5"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping text-2xl mr-5"></i></a>
+                    <a class="btn btn-outline border-[#179800]">Login</a>
+                    <a class="btn text-white bg-naturePrimary">Register</a>
+                </div>
+                
+            </div>
             
         </nav>
         <!-- banner section  -->
-     </header>
+    </header>
     <!-- main section  -->
-     <main>
-        <h1 class="text-naturePrimary text-5xl">Nature's Platter</h1>
-     </main>
-    <!-- footer section  -->
-     <footer>
+    <main>
 
-     </footer>
+    </main>
+    <!-- footer section  -->
+    <footer>
+
+    </footer>
 </body>
 
 </html>
